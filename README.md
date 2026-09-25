@@ -32,17 +32,7 @@ Open:
 `src/main/java/com/inventory/dao/DBConnection.java`
 
 
-In the terminal:
 
-`mvn clean compile`
-
-Then run:
-
-`mvn exec:java`
-
-If your Maven setup does not have the exec plugin, run the main class from VS Code:
-
-`com.inventory.main.InventoryApp`
 
 ## Important
 This version intentionally keeps the project simple. Supplier and Purchase Order model classes are included for the next development phase, but the first runnable version focuses on the core inventory flow.
